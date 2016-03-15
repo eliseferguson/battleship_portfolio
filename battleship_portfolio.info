@@ -1,0 +1,14 @@
+name = Battleship Portfolio
+description = Custom theme for Saturday Night Battleship
+core = 7.x
+engine = phptemplate
+
+regions[header] = Header
+regions[sidebar_first] = Sidebar
+regions[content] = Content
+regions[footer] = Footer
+
+stylesheets[all][] = css/styles.css
+
+features[] = name
+features[] = main_menu

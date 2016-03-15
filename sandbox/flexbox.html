@@ -1,0 +1,90 @@
+<html>
+<head>
+<style>
+div {
+	max-width: 1000px;
+	border: 1px solid #f0f;
+	margin: 0 auto;
+}
+ul {
+		margin: 0;
+		padding: 0;
+		display:-webkit-box;
+		display:-webkit-flex;
+		display:-webkit-flexbox;
+		display:-moz-flex;
+		display:-moz-box;
+		display:-ms-flexbox;
+		display:flex;
+		
+		
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-flex-direction: row;
+		flex-direction: row;
+
+		/*-webkit-align-content: space-around;
+		align-content: space-around;
+
+		-webkit-align-items: center;
+		align-items: center;
+		-webkit-justify-content: center;
+		justify-content: center;*/
+
+	}
+	ul a { display: block; }
+	ul li {
+		list-style: none;
+		float: left;
+		margin: 9px;
+		margin: 10px 1%;
+		background: #1b3f5f;
+		border: 1px solid #3a678f;
+		padding: 20px 10px 25px;
+		text-align: center;
+		position: relative;
+		min-width: 250px;
+		-webkit-flex: 1 1 250px;
+		flex: 1;
+
+	}
+	li a {
+		
+		/*height: 205px;
+		width: 277px;*/
+		color: #fff;
+		text-decoration: none;
+		font-family: $font-lato;
+		font-weight: 400;
+		font-size: 18px;	
+		strong {
+			color: #f36a40;
+			font-weight: 900;
+			font-size: 27px;
+			
+		}
+		.plus-sign {
+			position: absolute;
+    		bottom: -10px;
+    		left: 45%;
+		}
+	}
+	li a:hover {
+		span.plus-sign {
+			background: #ffde00;
+			color: #1b3f5f;
+		}
+	}
+
+</style>
+</head>
+<body>
+	<div>
+		<ul>
+			<li><a>Box 1</a></li>
+			<li><a>Box 2</a></li>
+			<li><a>Box 3</a></li>
+		</ul>
+	</div>
+</body>
+</html>

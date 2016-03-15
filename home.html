@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="utf-8">
+  	<title>Elise Ferguson - Resume</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link href='https://fonts.googleapis.com/css?family=Raleway:400,700|Lato' rel='stylesheet' type='text/css'/>
+  	<link rel="stylesheet" href="css/styles.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+</head>
+<body class="front">
+
+<img src="images/resume-image-large.jpg" alt="" class="bg" />
+
+<div class="container-page">
+
+	<div class="container-primary">
+		<div class="container-content">
+			<header class="header">
+				<!-- Content header area -->
+				<img src="images/avatar-nogun.jpg" alt="" class="battleship-avatar"/>
+				<h1>Elise Ferguson</h1>
+				<h3>Front End Web Developer</h3>
+				<span>Farmington, Minnesota</span>
+				<span class="phone" title="Click to call on Mobile">612-234-1627</span>
+				<a href="mailto:ferguson.elise@gmail.com" class="email"><span class="fa fa-bullseye screenElement"></span><span class="screenElement">Hire Me</span> <span class="printElement">ferguson.elise@gmail.com</span></a>
+			</header>
+			<section class="primary">
+				<!-- Main content area -->
+				<p>Stuff about me Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt arcu vitae magna suscipit, eu pellentesque sem venenatis. Morbi augue mauris, iaculis blandit magna ac, luctus ornare sapien. Donec imperdiet ligula vitae purus consectetur cursus id non massa. Phasellus interdum libero non ligula ornare, id interdum augue accumsan. Etiam commodo sed nisl id semper. Phasellus pharetra luctus leo eget consectetur. Praesent interdum turpis vitae erat ultricies congue.</p>
+			</section>
+		</div>
+		<div class="container-sidebar">
+			<!-- optional sidebar -->
+			<?php if ($page['sidebar_first']): ?>    
+			  <?php print render($page['sidebar_first']); ?>
+			<?php endif; ?>
+		</div>
+		<footer class="container-footer">
+			<!-- main footer area -->
+			<section class="social-links">
+				<a href="#" class="fa fa-linkedin-square fa-3x"></a>
+			</section>	
+			<section class="footer">
+			</section>		
+		</footer>
+	</div>
+	<div class="container-secondary">
+		<!-- optional secondary area -->
+	</div>
+</div>
+
+</body>
+</html>
