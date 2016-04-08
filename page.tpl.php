@@ -1,5 +1,6 @@
-<img src="<?php global $base_path; print $base_path.path_to_theme(); ?>/images/resume-image-large.jpg" alt="" class="bg" />
-
+<div class="container-photo">
+	<img src="<?php global $base_path; print $base_path.path_to_theme(); ?>/images/resume-image-large.jpg" alt="" class="bg" />
+</div>
 <div class="container-page">
 
 	<div class="container-primary">

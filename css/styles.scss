@@ -177,66 +177,38 @@ html {
 body {
 	background: #fff;
 }
-img.bg {
-  max-width: 1024px;
-  width: auto;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  max-height: 1078px;
-  @include breakpoint(1052px) {
-		
-	}
-  @include breakpoint(800px) {
-  	display: none;
-  }
-}
 
+.container-photo {
+	width: 44%;
+	/*border: 1px solid #f0f;	*/
+	float: left;
 
-.container-page {  
-
-}
-	.container-primary {  
-		float: left;
-		margin-left: 40%;
-		/*width: 50%;*/
-		background: #fff;
-		padding: 10px;
-		@include breakpoint(1840px) {
-			margin-left: 45%;
-		}
-		@include breakpoint(1620px) {
-			margin-left: 50%;
-		}
-		@include breakpoint(1440px) {
-			margin-left: 55%;
-		}
-		@include breakpoint(1335px) {
-			margin-left: 60%;
-		}
-	
-
-		@include breakpoint(1224px) {
-			margin-left: 65%;
-		}
-		@include breakpoint(1135px) {
-			margin-left: 70%;
-		}
+	img.bg {
+		max-width: 100%;
+		max-height: 1050px;
+		/*position: fixed;*/
+		top: 0;
+		left: 0;
 		@include breakpoint(1052px) {
-			
-		}
-		@include breakpoint(1035px) {
-			margin-left: 60%;
+		
 		}
 		@include breakpoint(800px) {
-			margin-left: 0;
-			width: 100%;
+			display: none;
 		}
-		@include breakpoint(480px) {
-			margin-left: 0;
-			width: 100%;
-		}
+	}
+}
+
+.container-page {  
+	width: 55%;
+	/*border: 1px solid #f90;*/
+	float: left;
+	@include breakpoint(800px) {
+		width: auto;
+	}
+}
+	.container-primary {  
+		padding-left: 10px;
+		
 	}
 
 		.container-content {  
@@ -404,7 +376,7 @@ img.bg {
 			}
 				.front .primary {
 					margin-top: 50px;
-					width: 50%;
+					/*width: 50%;*/
 					@include breakpoint(800px) {
 						width: 95%;
 					}
